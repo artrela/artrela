@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    
+    td {
+        text-align: center;
+    }
+    
+    table {
+        width: 50%;
+    }
+
+</style>
+
+<body>
+    <h1 style="text-align: center">Contact Information</h1>
+    <table cellspacing = "20">
+        <tr>
+            <td>📱</td>
+            <td><strong>Phone Number:</strong></td>
+            <td>(309)-310-8053</td>
+        </tr>
+        <tr>
+            <td>💻</td>
+            <td><strong>Email Address:</strong></td>
+            <td>trelaalec@gmail.com</td>
+        </tr>
+        <tr>
+            <td>📩</td>
+            <td><strong>Mailing Address:</strong></td>
+            <td>1311 2nd Street NW New Phildelphia OH, 44663</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <form action = "mailto: trelaalec@gmail.com" method="post" enctype="text/plain">
+        <table  cellspacing="20" style="padding-bottom: 0px;">
+            <tr>
+                <label><h3>Email Me Here:</h3></label>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Your Name:</label>
+                    <input type="text" name = "yourName" value = "">
+                </td>
+                <td>
+                    <label>Your Email:</label>
+                    <input type ="email", name="yourEmail">
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <label>Your Message:</label>
+                </td>
+                <td>
+                    <textarea rows="10" cols="40" name = "yourMessage"></textarea>
+                </td>
+            </tr> 
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <input style="font-family: 'Work Sans', sans-serif; background-color: #212121;  color: #F6F6F6; ;
+                        border-radius: 8px; width: 25%; text-align: center;" type="submit" name="button"> 
+                </td>
+            </tr>
+        </table>          
+    </form>
+
+    <hr>
+
+    <table cellspacing="20">
+        <td>
+            <a href="file:///C:/Users/alect/OneDrive/Documents/Python%20Practice/100%20Days%20of%20Python%20Bootcamp/Day43_44CSS/FirstPracticeWebsiteCSS.html" 
+            style="font-family: 'Work Sans', sans-serif; color: #212121;">Home</a> 
+
+            <a href="https://www.linkedin.com/in/alec-trela-724510195/" 
+            style="font-family: 'Work Sans', sans-serif; color: #212121;">LinkedIn</a> 
+        </td>
+    </table>
+    
+</body>
+</html>
