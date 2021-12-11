@@ -1,0 +1,39 @@
+body {
+    background-color: #F6F6F6;
+}
+
+hr {
+    background-color: #F6F6F6;
+    border-style: none;
+    border-top: dotted #6D9886;
+    border-top-width: thick;
+    width: 5%;
+    height: 0px;
+}
+
+h1 {
+    color: #6D9886;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+    color: #ceaf85;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 5%;
+}
+
+h3 {
+    color: #ceaf85;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 5%
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Work Sans', sans-serif;
+    color: #212121;
+    padding-bottom: 5%;
+}
