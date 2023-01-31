@@ -1,9 +1,9 @@
 - 👋 Hi, I’m @artrela
 - 👀 I’m interested in ...
-Robotics: path planning, localization, controls, and software. 
+Robotics software!
 - 🌱 I’m currently learning ...
 Robotics at CMU
 - 📫 How to reach me ...
-trelaalec@gmail.com
+atrela@andrew.cmu.edu
 
 
